@@ -36,3 +36,16 @@ flutter analyze
 flutter test
 flutter build appbundle
 ```
+
+## Standalone repository
+
+ChickFarm is maintained independently from Jengaapp. The standalone baseline is
+`bonnieace/Jengaapp`, branch `production-hardening`, commit
+`0e5e1510bf99581819d07d8d9ad297a8a9af926c`.
+The existing Git history is preserved. New ChickFarm work belongs on `main`
+in `bonnieace/chickfarm`; the source Jengaapp branches are preserved.
+Firebase remains `chickfarm-uzanet`. Repository creation does not copy GitHub
+secrets, environments, deployment integrations, or release signing credentials.
+The Android workflow builds a test APK on pushes to `main`.
+
+Brand assets and character guidance live in `assets/brand/` and `docs/BRAND.md`.
